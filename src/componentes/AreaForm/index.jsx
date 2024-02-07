@@ -4,7 +4,7 @@ const AreaForm = () => {
 
  return (
     <>
-      <h2>Conheça nosso aplicativo</h2>
+      <h2 className="title lg white" >Conheça nosso aplicativo</h2>
       <Form />
     </>
  );

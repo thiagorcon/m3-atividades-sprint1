@@ -1,0 +1,33 @@
+.btn{
+     width: 172px;
+     height: 52px;
+     border-radius: 255px;
+     
+     color: var(--color-white);
+
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     gap: 1rem;
+     height: 3.25rem;
+
+     font-family: var(--color-primary);
+     font-size: 1rem;
+     font-weight: 700;
+
+     padding: 0 2.5rem;
+
+     transition: .4s;
+}
+
+btn:hover{
+     filter: brightness(1.1);
+}
+
+.btn.red{
+     background-color: var(--color-red);
+}
+
+.btn.green{
+     background-color: var(--color-green);
+}

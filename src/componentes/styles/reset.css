@@ -1,0 +1,31 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+a{
+     text-decoration: none;
+}
+button{
+     cursor: pointer;
+     background: transparent;
+     border: none;
+     
+}
+
+input, select{
+     background-color: transparent;
+     border: none;
+}
+
+ol, ul {
+list-style: none;
+}
+
+.paragraph{
+font-family: var(--font-secundary);
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.8;
+}

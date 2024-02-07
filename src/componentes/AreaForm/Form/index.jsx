@@ -4,11 +4,12 @@ const Form = () => {
           alert('Obrigado pelo cadastro, em breve entraremos em contato');
        };
      return (
-          <section>
+          <form className="form">
                <input type="text" placeholder="nome" /><br />
                <input type="email" placeholder="E-mail" /><br />
-               <button onClick={Enviar}>Enviar</button>
-          </section>
+               <button type="submit" className='btn green' onClick={Enviar}>Enviar</button>
+              
+          </form>
      )
 }
 
