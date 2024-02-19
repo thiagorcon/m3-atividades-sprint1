@@ -1,13 +1,15 @@
 import Form from "./Form";
 const AreaForm = () => {
- 
 
- return (
+
+  return (
     <>
-      <h2 className="title lg white" >Conheça nosso aplicativo</h2>
-      <Form />
+      <div className="container section-red">
+        <h2 className="title lg white center" >Conheça nosso aplicativo</h2>
+        <Form />
+      </div>
     </>
- );
+  );
 };
 
 export default AreaForm;

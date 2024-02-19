@@ -5,9 +5,11 @@ const Restaurant = () =>{
      
      return(
           <>
+          <div className="container section-green section-padding" >
           <img src={IconRestaurantes} alt="" />
-          <h2>Restaurantes famosos</h2>
+          <h2 className="title center">Melhores dicas de lanches</h2>
           <ListaDeRestaurantes />
+          </div>
           </>
           
      )

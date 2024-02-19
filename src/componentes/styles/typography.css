@@ -4,6 +4,11 @@
    --line-height: 1.4;  
 }
 
+h1{
+   max-width: 100%;
+   font-size: 75px;
+}
+
 .title.md{
      font-size: 3.75rem;
 }
@@ -25,9 +30,21 @@
    color : var(--color-red);
 }
 
+.title.center{
+   text-align: center;
+   padding: 10px;
+}
+
 .paragraph{
 font-family: var(--font-secondary);
 font-weight: 25rem;
 font-size: 1rem;
 line-height: 2rem;
+}
+
+.paragraph.white{
+   color: var(--color-white);
+}
+.paragraph.black{
+   color: var(--color-black);
 }

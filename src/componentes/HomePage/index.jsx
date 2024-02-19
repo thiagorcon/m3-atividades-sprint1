@@ -8,13 +8,15 @@ const HomePage = () => {
 
      return (
           <>
-               <Header />
-               <main>
-                    <Restaurant />
-                    <About />
-                    <Form />
-               </main>
-               <Footer />
+               
+                    <Header />
+                    <main>
+                         <Restaurant />
+                         <About />
+                         <Form />
+                    </main>
+                    <Footer />
+              
           </>
      );
 }
